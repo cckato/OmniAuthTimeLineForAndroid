@@ -7,6 +7,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
         <activity
             android:name=".ui.activity.LoginActivity"
             android:label="@string/app_name" >
@@ -17,5 +18,8 @@
             </intent-filter>
         </activity>
     </application>
+    <instrumentation
+        android:name="com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
+        android:targetPackage="com.cocoabu.omniauthtimelineforandroid" />
 
 </manifest>
