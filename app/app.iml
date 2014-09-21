@@ -87,6 +87,7 @@
     <orderEntry type="library" exported="" name="1_dagger-compiler-1.1.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="testrunner-runtime-1.1" level="project" />
     <orderEntry type="library" exported="" name="1_testrunner-runtime-1.1" level="project" />
+    <orderEntry type="library" exported="" name="twitter4j-core-4.0.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" name="1_javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="dexmaker-1.0" level="project" />
